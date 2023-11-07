@@ -13,7 +13,9 @@ app.get("/login", (req, res)=>{
 app.get('/joke',(req,res)=>{
     res.send('<h2>vivas are like arrange marriage you never know kesa jayega </h2>')
 })
-
+app.get('/joke',(req,res)=>{
+    res.send('<h2>vivas are like arrange marriage you never know kesa jayega </h2>')
+})
 app.listen(process.env.PORT, () => {
     console.log(`Example app listening on port ${process.env.PORT}`)
 })
